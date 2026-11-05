@@ -1,0 +1,7 @@
+gridpressure:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('GRID_DUCKDB') }}"
+      threads: 4

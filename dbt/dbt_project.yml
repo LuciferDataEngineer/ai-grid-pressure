@@ -1,0 +1,11 @@
+name: gridpressure
+version: "1.0.0"
+profile: gridpressure
+model-paths: ["models"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+models:
+  gridpressure:
+    marts:
+      +materialized: table

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="400" viewBox="0 0 760 400">
+<rect width="100%" height="100%" fill="#f4f0e6"/>
+<text x="24" y="36" font-family="Georgia, serif" font-size="20" fill="#1a2332">OpenLineage jobs</text>
+<rect x="24" y="56" width="712" height="52" rx="8" fill="#fffdf8" stroke="#e4dccb"/>
+<text x="40" y="78" font-family="Georgia, serif" font-size="16" fill="#0e6b62">public_snapshot</text>
+<text x="40" y="96" font-family="sans-serif" font-size="12" fill="#1a2332">aemo.price_and_demand, aemo.dispatch_scada, aemo.registration, abs.cpi, rba.f1 → snapshot.manifest</text>
+<rect x="24" y="120" width="712" height="52" rx="8" fill="#fffdf8" stroke="#e4dccb"/>
+<text x="40" y="142" font-family="Georgia, serif" font-size="16" fill="#0e6b62">iceberg_bronze_silver</text>
+<text x="40" y="160" font-family="sans-serif" font-size="12" fill="#1a2332">snapshot.price_demand, snapshot.scada, snapshot.registry, snapshot.cpi, snapshot.cash_rate → bronze.price_demand, silver.price_interval, bronze.unit_scada, silver.unit_scada, silver.duid, silver.cpi, silver.cash_rate, ops.mor_audit</text>
+<rect x="24" y="184" width="712" height="52" rx="8" fill="#fffdf8" stroke="#e4dccb"/>
+<text x="40" y="206" font-family="Georgia, serif" font-size="16" fill="#0e6b62">duckdb_gold_marts</text>
+<text x="40" y="224" font-family="sans-serif" font-size="12" fill="#1a2332">silver.price_interval, silver.unit_scada, silver.duid, silver.cpi, silver.cash_rate → gold.mart_region_month, gold.mart_fuel_day, gold.mart_cpi, gold.mart_cash</text>
+<rect x="24" y="248" width="712" height="52" rx="8" fill="#fffdf8" stroke="#e4dccb"/>
+<text x="40" y="270" font-family="Georgia, serif" font-size="16" fill="#0e6b62">data_quality</text>
+<text x="40" y="288" font-family="sans-serif" font-size="12" fill="#1a2332">silver.price_interval, gold.mart_region_day → docs.gx</text>
+<rect x="24" y="312" width="712" height="52" rx="8" fill="#fffdf8" stroke="#e4dccb"/>
+<text x="40" y="334" font-family="Georgia, serif" font-size="16" fill="#0e6b62">briefing_site</text>
+<text x="40" y="352" font-family="sans-serif" font-size="12" fill="#1a2332">gold.mart_region_day, gold.mart_cpi, gold.mart_cash → docs.dashboard</text>
+</svg>

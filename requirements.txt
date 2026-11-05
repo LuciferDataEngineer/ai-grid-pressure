@@ -1,0 +1,14 @@
+pyiceberg[sql-sqlite,pyarrow]==0.12.0
+duckdb==2.0.0
+pyarrow==26.0.1
+pandas==3.1.1
+dagster==1.13.29
+dbt-core==1.12.6
+dbt-duckdb==1.11.1
+great_expectations==1.24.1
+openlineage-python==1.55.0
+openpyxl==3.1.5
+requests==2.34.2
+trino==0.340.0
+pytest==9.2.0
+ruff==0.17.4
