@@ -1,0 +1,39 @@
+version: 2
+models:
+  - name: mart_region_day
+    columns:
+      - name: region_day_key
+        tests: [unique, not_null]
+      - name: region
+        tests:
+          - not_null
+          - accepted_values:
+              values: ["NSW1", "QLD1", "VIC1", "SA1", "TAS1"]
+      - name: market_date
+        tests: [not_null]
+      - name: peak_mw
+        tests: [not_null]
+      - name: intervals
+        tests: [not_null]
+  - name: mart_region_month
+    columns:
+      - name: region
+        tests: [not_null]
+      - name: month_start
+        tests: [not_null]
+  - name: mart_nem_day
+    columns:
+      - name: market_date
+        tests: [unique, not_null]
+      - name: peak_mw
+        tests: [not_null]
+  - name: mart_cpi
+    columns:
+      - name: value
+        tests: [not_null]
+  - name: mart_cash
+    columns:
+      - name: rate_date
+        tests: [unique, not_null]
+      - name: cash_rate_target
+        tests: [not_null]

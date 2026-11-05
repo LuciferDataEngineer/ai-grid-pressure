@@ -1,0 +1,26 @@
+{
+  "method": "Iceberg v2 position delete files committed in a delete manifest",
+  "note": "PyIceberg 0.12 Table.delete still rewrites Parquet. This project writes position-delete files so reads skip rows without rewriting the data files.",
+  "audit_positions_hidden": 1,
+  "audit_live_labels": [
+    "added-after-delete",
+    "kept",
+    "kept"
+  ],
+  "audit_snapshot": {
+    "total-position-deletes": "1",
+    "added-position-deletes": "1",
+    "added-position-delete-files": "1",
+    "operation": "delete"
+  },
+  "silver_price_reload": {
+    "source_file": "PRICE_AND_DEMAND_202611_VIC1.csv.gz",
+    "positions_hidden": 1440,
+    "snapshot": {
+      "total-position-deletes": "1440",
+      "added-position-deletes": "1440",
+      "added-position-delete-files": "1",
+      "operation": "delete"
+    }
+  }
+}

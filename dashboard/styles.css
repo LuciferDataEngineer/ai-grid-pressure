@@ -1,0 +1,143 @@
+:root {
+  --paper: #f3efe4;
+  --ink: #1c2430;
+  --muted: #5c6570;
+  --card: #fffdf8;
+  --line: #e3d9c6;
+  --teal: #0e6b62;
+  --navy: #1d3e6e;
+  --rust: #9d3b24;
+  --calm: #1f7a4d;
+  --watch: #8a5a00;
+  --stress: #9d2c2c;
+  --shadow: 0 10px 30px rgba(28, 36, 48, 0.06);
+  font-family: "Source Sans 3", "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background:
+    radial-gradient(1200px 400px at 10% -10%, #efe4cc 0%, transparent 50%),
+    var(--paper);
+  color: var(--ink);
+}
+.skip {
+  position: absolute;
+  left: -999px;
+}
+.skip:focus { left: 12px; top: 12px; background: white; padding: 8px; }
+.mast, .tabs, main { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+.mast { padding: 32px 0 8px; }
+.eyebrow {
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--teal);
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+h1, h2, h3 { font-family: Georgia, "Iowan Old Style", Palatino, serif; font-weight: 600; }
+h1 { font-size: clamp(36px, 5vw, 56px); margin: 0; letter-spacing: -0.03em; }
+.mast-row { display: flex; justify-content: space-between; gap: 16px; align-items: end; flex-wrap: wrap; }
+.as-of { margin: 0; color: var(--muted); }
+.lede { max-width: 68ch; color: var(--muted); line-height: 1.5; }
+.tabs { display: flex; gap: 8px; flex-wrap: wrap; padding: 8px 0 18px; }
+.tabs button {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font: inherit;
+  cursor: pointer;
+}
+.tabs button[aria-selected="true"] {
+  background: var(--ink);
+  color: #f7f3ea;
+  border-color: var(--ink);
+}
+.banner {
+  background: var(--navy);
+  color: #f7f4ec;
+  border-radius: 18px;
+  padding: 22px 24px;
+  font-size: 20px;
+  line-height: 1.45;
+  margin: 0 0 18px;
+}
+.kpis {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+.kpi {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--teal);
+  border-radius: 16px;
+  padding: 14px 14px 16px;
+  box-shadow: var(--shadow);
+  min-height: 168px;
+}
+.kpi.stress { border-top-color: var(--stress); }
+.kpi.watch { border-top-color: var(--watch); }
+.kpi.calm { border-top-color: var(--calm); }
+.kpi .label { margin: 0; font-size: 13px; color: var(--muted); font-weight: 700; }
+.kpi .value { margin: 8px 0 4px; font-family: Georgia, serif; font-size: 28px; letter-spacing: -0.03em; }
+.kpi .detail { margin: 0; font-weight: 700; }
+.kpi .note { margin: 8px 0 0; color: var(--muted); font-size: 14px; line-height: 1.4; }
+.hero, .chart-card, .meaning, .sources {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+.hero { margin-top: 16px; padding: 18px 18px 8px; }
+.hero h2, .chart-card h3, .meaning h2 { margin: 0 0 6px; }
+.insight { margin: 0 0 12px; color: var(--muted); }
+.nem {
+  display: grid;
+  grid-template-columns: 0.9fr 1.15fr 1.05fr;
+  grid-template-areas:
+    ". qld qld"
+    "sa nsw nsw"
+    "sa vic vic"
+    ". tas .";
+  gap: 10px;
+  min-height: 420px;
+}
+.cell {
+  border-radius: 16px;
+  padding: 16px;
+  color: #f7f4ec;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 110px;
+}
+.cell strong { font-family: Georgia, serif; font-size: 28px; }
+.cell span { font-size: 14px; line-height: 1.35; }
+.cell.qld { grid-area: qld; }
+.cell.nsw { grid-area: nsw; }
+.cell.sa { grid-area: sa; }
+.cell.vic { grid-area: vic; }
+.cell.tas { grid-area: tas; }
+.cell.stress { background: var(--stress); }
+.cell.watch { background: var(--watch); }
+.cell.calm { background: var(--calm); }
+.charts { display: grid; gap: 14px; margin-top: 14px; }
+.chart-card { padding: 16px 16px 8px; }
+.plot { height: 360px; }
+.meaning { margin-top: 14px; padding: 18px 20px; }
+.meaning p { line-height: 1.55; font-size: 18px; }
+.sources { margin: 14px 0 40px; padding: 14px 18px; color: var(--muted); font-size: 14px; line-height: 1.45; }
+@media (max-width: 980px) {
+  .kpis { grid-template-columns: 1fr 1fr; }
+  .nem { grid-template-columns: 1fr; grid-template-areas: "qld" "nsw" "vic" "sa" "tas"; }
+}
+@media (max-width: 640px) {
+  .kpis { grid-template-columns: 1fr; }
+  .plot { height: 300px; }
+  .banner { font-size: 18px; }
+}

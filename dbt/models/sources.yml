@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: lake
+    schema: main
+    tables:
+      - name: silver_price
+      - name: silver_scada
+      - name: silver_duid
+      - name: silver_cpi
+      - name: silver_cash

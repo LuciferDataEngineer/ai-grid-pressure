@@ -1,0 +1,227 @@
+[
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2026-11-05T22:59:39Z",
+    "run": {
+      "runId": "1bd1293d-eb94-4675-900d-64e749453b60"
+    },
+    "job": {
+      "namespace": "ai-grid-pressure",
+      "name": "public_snapshot"
+    },
+    "inputs": [
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "aemo.price_and_demand"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "aemo.dispatch_scada"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "aemo.registration"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "abs.cpi"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "rba.f1"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "snapshot.manifest"
+      }
+    ],
+    "producer": "https://github.com/LuciferDataEngineer/ai-grid-pressure",
+    "schemaURL": "https://openlineage.io/spec/2-0-2/OpenLineage.json"
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2026-11-05T23:00:21Z",
+    "run": {
+      "runId": "83db4e11-d986-4afc-aa9a-2b3687e217c9"
+    },
+    "job": {
+      "namespace": "ai-grid-pressure",
+      "name": "iceberg_bronze_silver"
+    },
+    "inputs": [
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "snapshot.price_demand"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "snapshot.scada"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "snapshot.registry"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "snapshot.cpi"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "snapshot.cash_rate"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "bronze.price_demand"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "silver.price_interval"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "bronze.unit_scada"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "silver.unit_scada"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "silver.duid"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "silver.cpi"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "silver.cash_rate"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "ops.mor_audit"
+      }
+    ],
+    "producer": "https://github.com/LuciferDataEngineer/ai-grid-pressure",
+    "schemaURL": "https://openlineage.io/spec/2-0-2/OpenLineage.json"
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2026-11-05T23:00:26Z",
+    "run": {
+      "runId": "44a70e15-017b-49d1-87be-e72ebe418e7e"
+    },
+    "job": {
+      "namespace": "ai-grid-pressure",
+      "name": "duckdb_gold_marts"
+    },
+    "inputs": [
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "silver.price_interval"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "silver.unit_scada"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "silver.duid"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "silver.cpi"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "silver.cash_rate"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "gold.mart_region_month"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "gold.mart_fuel_day"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "gold.mart_cpi"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "gold.mart_cash"
+      }
+    ],
+    "producer": "https://github.com/LuciferDataEngineer/ai-grid-pressure",
+    "schemaURL": "https://openlineage.io/spec/2-0-2/OpenLineage.json"
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2026-11-05T23:00:30Z",
+    "run": {
+      "runId": "f469d238-e77a-4df8-b97f-0a66e1f4d847"
+    },
+    "job": {
+      "namespace": "ai-grid-pressure",
+      "name": "data_quality"
+    },
+    "inputs": [
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "silver.price_interval"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "gold.mart_region_day"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "docs.gx"
+      }
+    ],
+    "producer": "https://github.com/LuciferDataEngineer/ai-grid-pressure",
+    "schemaURL": "https://openlineage.io/spec/2-0-2/OpenLineage.json"
+  },
+  {
+    "eventType": "COMPLETE",
+    "eventTime": "2026-11-05T23:00:30Z",
+    "run": {
+      "runId": "6a671ce6-e8a3-4d24-b1de-49bd077000f2"
+    },
+    "job": {
+      "namespace": "ai-grid-pressure",
+      "name": "briefing_site"
+    },
+    "inputs": [
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "gold.mart_region_day"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "gold.mart_cpi"
+      },
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "gold.mart_cash"
+      }
+    ],
+    "outputs": [
+      {
+        "namespace": "ai-grid-pressure",
+        "name": "docs.dashboard"
+      }
+    ],
+    "producer": "https://github.com/LuciferDataEngineer/ai-grid-pressure",
+    "schemaURL": "https://openlineage.io/spec/2-0-2/OpenLineage.json"
+  }
+]

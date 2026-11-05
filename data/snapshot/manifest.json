@@ -1,0 +1,1294 @@
+{
+  "project": "ai-grid-pressure",
+  "description": "Reproducible extract of free public AEMO, ABS and RBA files. No values in this snapshot were invented.",
+  "created_at": "2026-11-05T22:59:39+00:00",
+  "files": [
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202411_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202411_NSW1.csv",
+      "sha256": "f6a8465f1cffae03773635bc686bedc7b42b4ffe3da913d9f9c6263bffe5f038",
+      "bytes": 81013,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202411_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202411_QLD1.csv",
+      "sha256": "120249c29a5a18c1442d7f76b3635a0c50822c3c06ff1f03b85ba8097b0895e1",
+      "bytes": 77378,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202411_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202411_VIC1.csv",
+      "sha256": "032a156821e49d2a0c0369a77f2ee3120a9b38440a5a184d50e48b5af5d90757",
+      "bytes": 79467,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202411_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202411_SA1.csv",
+      "sha256": "93dcf8a15380519ded7ebca47a8cbe46076455080dcb00170e90cb2bf021c6b6",
+      "bytes": 77355,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202411_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202411_TAS1.csv",
+      "sha256": "01858595f09fe617ddc40ff29bb602ea702ed1020c91d3c24f65d9fe598e6495",
+      "bytes": 67231,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202412_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202412_NSW1.csv",
+      "sha256": "54b08054e42e1098e668ad8a153221ecd48d3d80f74cf3eeafb3920f9917d6a6",
+      "bytes": 84696,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202412_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202412_QLD1.csv",
+      "sha256": "4077e740d47457623d25eaeae8deb190753da7d8ac6543826154c6db80099a23",
+      "bytes": 80015,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202412_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202412_VIC1.csv",
+      "sha256": "20b9da1c4b958976b4c3d94c1045acd375370825e64d62d7514c80c433afe5e2",
+      "bytes": 82072,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202412_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202412_SA1.csv",
+      "sha256": "8eb30ff551023825837b617a69434528598c265157174558143f3740867cd57c",
+      "bytes": 80763,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202412_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202412_TAS1.csv",
+      "sha256": "f15599ea86a25a42794e13cd144edfa5a784128c96c792271bd72b37f617e548",
+      "bytes": 70221,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202501_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202501_NSW1.csv",
+      "sha256": "fcbe77bd60026e87781e08161fc08c383556b049b574a8a55b701a29789009ed",
+      "bytes": 82639,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202501_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202501_QLD1.csv",
+      "sha256": "51c864d29203fbeb4c6f6a9e5d9acca9029aab7001c96530c858852eb167c778",
+      "bytes": 77788,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202501_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202501_VIC1.csv",
+      "sha256": "20fad9cc7ab6856d5f40441bed6309f292888f68294432e1b7d53c0f7fbb4082",
+      "bytes": 81809,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202501_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202501_SA1.csv",
+      "sha256": "d798f176b303d4b7dc6622cf3a7505452674709c7f53ae080dbc926d22b2fb17",
+      "bytes": 80301,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202501_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202501_TAS1.csv",
+      "sha256": "bcd36b8fb9748401b7cded4397853b8a82b5152f4b738bbf754111ace970cf0a",
+      "bytes": 63040,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202502_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202502_NSW1.csv",
+      "sha256": "ef4db340dbbb585a33b0650bd3fe8a906966ceb8ba390729bf125a65114e7fac",
+      "bytes": 75978,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202502_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202502_QLD1.csv",
+      "sha256": "7b404fad0b4ccacf7ec365b5524b5c2166da910a9c3605f1cc746f9cb7c4c9e3",
+      "bytes": 70068,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202502_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202502_VIC1.csv",
+      "sha256": "056e1713717f78d714e0bef362f367873c1c969e169e812e7a7f707d1e16b544",
+      "bytes": 75073,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202502_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202502_SA1.csv",
+      "sha256": "935c25477628890519b48ccf95b8ee3d06a3e67fea97e61c971292eeca05a612",
+      "bytes": 72937,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202502_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202502_TAS1.csv",
+      "sha256": "41b5088484ec0e1a39f61a6430ac094d79fc263666e541330d0659ab1607cfba",
+      "bytes": 58387,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202503_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202503_NSW1.csv",
+      "sha256": "efacc61e70fd3f3c8f97289c97aaba0b32fe0590aa97996c720be08399934273",
+      "bytes": 83110,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202503_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202503_QLD1.csv",
+      "sha256": "13268ec4e1e2085c0346688929b8147e19302c9e03a9be10c42c1245e3bb64f9",
+      "bytes": 78714,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202503_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202503_VIC1.csv",
+      "sha256": "b31fdf9c105d5f377e8f94271fc96f132c7e609d49495f3221f1f199a17085dd",
+      "bytes": 81566,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202503_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202503_SA1.csv",
+      "sha256": "c073999721b49c4dfaf23597974c01acdf62f8dad370e3211164503f4578fc79",
+      "bytes": 80566,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202503_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202503_TAS1.csv",
+      "sha256": "1454c3eb43f7956166c3d8b349e8e9795fc15eb81ca01c08ad12ed42a670d46b",
+      "bytes": 63871,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202504_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202504_NSW1.csv",
+      "sha256": "1c68d764f7891be1f554667930cdcb10f792f92b334e404cdc44166067f3a31b",
+      "bytes": 80143,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202504_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202504_QLD1.csv",
+      "sha256": "48b1a7ada56cf8dbb3bcfe11fdd0700790146c0810ed512024c3e805b07e458f",
+      "bytes": 78194,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202504_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202504_VIC1.csv",
+      "sha256": "727a853345ea0bb0dc8ff619d28b96ab20de25a5ac03edfa860f5295b8d0bbe3",
+      "bytes": 79827,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202504_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202504_SA1.csv",
+      "sha256": "1f5fb975c527a2a32291e96dd8731172bbb007a43db748350af0bf9f3ada3dc9",
+      "bytes": 76145,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202504_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202504_TAS1.csv",
+      "sha256": "6bfa063bdf21efd1b7a0e0eb28c9ad1373d628965523cc0819290c3d5165b1f9",
+      "bytes": 62725,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202505_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202505_NSW1.csv",
+      "sha256": "5fe355910171d3a0fc89f4565ee7d9b3a2801d78439c5c0a4ee1858f88cf2f37",
+      "bytes": 83700,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202505_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202505_QLD1.csv",
+      "sha256": "3199fd8998172635f12a1f4579b86cd8e862866ddd0659bcb0144dcaa0459dba",
+      "bytes": 80392,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202505_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202505_VIC1.csv",
+      "sha256": "05da160d64211db71f974b5064b5e77e1018eb8207cecbc606245ce5f4d262b4",
+      "bytes": 81344,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202505_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202505_SA1.csv",
+      "sha256": "f99c9d4d9879115006c9120eac373bcc3102c183c4e9400fb07c20a62c0c5908",
+      "bytes": 80172,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202505_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202505_TAS1.csv",
+      "sha256": "98d5282e5cc67a9fe2d63f271d2a3c2d9a56005f542fd6d78ff6d7206bbffb26",
+      "bytes": 65222,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202506_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202506_NSW1.csv",
+      "sha256": "059f0c076c271e7e44de6facbc767bf59ae75ac45602aa40411aa691ef68da71",
+      "bytes": 80849,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202506_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202506_QLD1.csv",
+      "sha256": "e667faf3205d5574573604029fbaa3806a8f3a08ce429d4545092e033446c8c9",
+      "bytes": 78340,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202506_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202506_VIC1.csv",
+      "sha256": "cd7578a57d38bb48da22c96c3858f214d833a824afa0a1fb98394bc58a2dfc0a",
+      "bytes": 81162,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202506_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202506_SA1.csv",
+      "sha256": "6395da63c8610f45441f734a9aae20c5d13caf0636ccea8cb84f3219f9f1ca7a",
+      "bytes": 78085,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202506_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202506_TAS1.csv",
+      "sha256": "889f4670f194f8afe72ac7d2bf1fba7b06d86692bb8a0c54c6dddfa67ed0dcc6",
+      "bytes": 67671,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202507_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202507_NSW1.csv",
+      "sha256": "0d7e54302f9c3707d573c227a4ec4074698a3323f1e4aee3a54825dc60495e3d",
+      "bytes": 83182,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202507_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202507_QLD1.csv",
+      "sha256": "b1ac6f4fd4772152aeb2160dd5e1ee65a2c7f55b8ad9f57f69a4e3b0dd7397b8",
+      "bytes": 80134,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202507_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202507_VIC1.csv",
+      "sha256": "0ac7d8e86d59bb7f21714d07775c589d424f6c3ff8eac4da108cc69b987d7987",
+      "bytes": 81255,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202507_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202507_SA1.csv",
+      "sha256": "5fbdfd1faa76f54ef27294b0aeb7d3a4befa72e5fe9bfa37d7dfa6aa37ca872b",
+      "bytes": 76479,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202507_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202507_TAS1.csv",
+      "sha256": "3a2567476d8bd86b4b1bac9f6ed6d7490e5f27519449014075004d2f2ceacbb5",
+      "bytes": 72751,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202508_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202508_NSW1.csv",
+      "sha256": "d43ffb88c1a3b6177e84671996ed96cb61482362b32cddf29e0a29644eb977b5",
+      "bytes": 84278,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202508_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202508_QLD1.csv",
+      "sha256": "b0ef332b61735ba2b27d5c758a98dadc97ee44d910154c4d7775003250664e51",
+      "bytes": 78685,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202508_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202508_VIC1.csv",
+      "sha256": "20b26bb9c928d0c840a39bc95c60a78663d6213e4886705f05817f974b17318d",
+      "bytes": 82940,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202508_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202508_SA1.csv",
+      "sha256": "52b7d50a70b7601e354722b1ff316570a4487a1a1249f34cdb3d2794fba94183",
+      "bytes": 79447,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202508_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202508_TAS1.csv",
+      "sha256": "e8740733124090b5fbdd674abe8d13b434f5cbf9ec3f8fcde156c0c669acfafe",
+      "bytes": 70841,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202509_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202509_NSW1.csv",
+      "sha256": "08fad0a574a2c4b8b979eb4c2e0736f8f2d86e55320ca728fc0f64a72e03d054",
+      "bytes": 80452,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202509_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202509_QLD1.csv",
+      "sha256": "411131668c3b34e2c35afa72325c6e4306b75e6b019b655000f2020af79748a5",
+      "bytes": 75162,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202509_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202509_VIC1.csv",
+      "sha256": "2accb40df5e241c8172915f85b737a4e951fc1a97d14007aa76d677bf45540b2",
+      "bytes": 78112,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202509_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202509_SA1.csv",
+      "sha256": "aa94850a680c86ff06eccec07776ee2aa230d421806dc77b89f8c037c9748777",
+      "bytes": 77089,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202509_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202509_TAS1.csv",
+      "sha256": "95f90c6d19a810e22441c72d9853f26b871ab9e053428091fc71f365fc149714",
+      "bytes": 67913,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202510_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202510_NSW1.csv",
+      "sha256": "0cf4b886b3cb1bbf18a17517c5792359703aad2e3573c5ba5a11e075ada7c09b",
+      "bytes": 83345,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202510_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202510_QLD1.csv",
+      "sha256": "e99f6803a602b056ab690341d928cc0991517bc10abce47835b0a0aa56bd0cb2",
+      "bytes": 76262,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202510_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202510_VIC1.csv",
+      "sha256": "f56d0a976a01d06d5f62165ce11e24776d40b7211a2abc7b12c3731933479ece",
+      "bytes": 80128,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202510_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202510_SA1.csv",
+      "sha256": "16d6569397fcad48dbfd56be6622382d25b02431784c1cb1821fe963d7b32276",
+      "bytes": 78201,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202510_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202510_TAS1.csv",
+      "sha256": "d65d8e960c7ed9dfa1747559b4b349aebc756081915a62d4341c709430973007",
+      "bytes": 69220,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202511_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202511_NSW1.csv",
+      "sha256": "7af958ede0fac3a021d5524115ea7e134208185b1582109dd08747afacc4a878",
+      "bytes": 80914,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202511_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202511_QLD1.csv",
+      "sha256": "c5a1e7efb8b235eca1eac6ee18c68500558501a20576f922115c768df160fe6c",
+      "bytes": 75691,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202511_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202511_VIC1.csv",
+      "sha256": "66bb82c871503f61e1712a6b239ad9710b51ce7b6bd6e99f7b0238ed01d1b9f8",
+      "bytes": 77299,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202511_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202511_SA1.csv",
+      "sha256": "669c45b9b4a47ef144714a77f22266af446dbc96f6aae37cd400aba4d63a8998",
+      "bytes": 76243,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202511_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202511_TAS1.csv",
+      "sha256": "9df09c9b9f7c1ed5c2abe81752414b148a4fd59ec2484928b918d203ebb7639a",
+      "bytes": 68789,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202512_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202512_NSW1.csv",
+      "sha256": "825892ea604ad013adb003ec85be7b1f903e36a7c4009a83eee013020ec35786",
+      "bytes": 82702,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202512_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202512_QLD1.csv",
+      "sha256": "45602df931a20e1a08408c3d62e2dd5b799ccc0b0e2a53abfd693d6c6c6ae4f2",
+      "bytes": 78517,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202512_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202512_VIC1.csv",
+      "sha256": "8413a2e37c5728829301f426c50591419d8ad7b38f1e665fe104d621f9d88bd0",
+      "bytes": 78033,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202512_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202512_SA1.csv",
+      "sha256": "3b7fa8ae585d82ee1dd3144120226ef8fba185fbc4d16457c30f902b786d5c7d",
+      "bytes": 78734,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202512_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202512_TAS1.csv",
+      "sha256": "2c5892f474dd7928298d3d1420f3cf5e87d37b00f673ee77c401043a95cf9fcd",
+      "bytes": 68913,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202601_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202601_NSW1.csv",
+      "sha256": "e3e1a56a80a6026d52e4e264d3da0f65b4de1ba34cc8f2c110bf6a97c8dcf2da",
+      "bytes": 80007,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202601_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202601_QLD1.csv",
+      "sha256": "0ef07884da8e21aa8b21fe2ed851eb51f1f6632f132bfb270a5df84f00e4d893",
+      "bytes": 77254,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202601_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202601_VIC1.csv",
+      "sha256": "5f0e9ff52ab0fb0a345dc043e22160d9636791bb69dc802d9d27177e005d9956",
+      "bytes": 78816,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202601_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202601_SA1.csv",
+      "sha256": "fc8c8b3e388bc8ea660b7eeafd128f8e40b63e82f56d89e849456d88bb30a59c",
+      "bytes": 78790,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202601_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202601_TAS1.csv",
+      "sha256": "bc4f91a4a23c6b14b23f61907de91fd19b7786a7ee0122284edd0b8dc89c401d",
+      "bytes": 66848,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202602_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202602_NSW1.csv",
+      "sha256": "a4fa04875ae09e207b99005781cf386762cd24dbc1b81873427f2cc197d32df6",
+      "bytes": 73270,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202602_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202602_QLD1.csv",
+      "sha256": "b263dfdf82cb61327564c6c1fbc89a25df6b1b33b2a90864f1197982fe41d16b",
+      "bytes": 71250,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202602_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202602_VIC1.csv",
+      "sha256": "9575598f711f820888a00a1a2a97d7fa8164afe5961a98154ca3dd47e6ec802b",
+      "bytes": 71912,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202602_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202602_SA1.csv",
+      "sha256": "2671d3eefafbc97e895cc03129773a5b7072d249caf152153434ea73044fd16c",
+      "bytes": 70742,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202602_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202602_TAS1.csv",
+      "sha256": "b245ee8ced1c4c572c0c550d3014928f1d33d550f6fd04536007635a4f8cf60b",
+      "bytes": 56257,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202603_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202603_NSW1.csv",
+      "sha256": "2d9cdd571747ad3a3635045ab7d58c9e15f32392d4e2e83e0cfcb9724a648fd2",
+      "bytes": 78433,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202603_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202603_QLD1.csv",
+      "sha256": "a61e5eedafb6637d04a5ef988d1f1ec644616bb3bdc9f70e94107482567ac493",
+      "bytes": 78391,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202603_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202603_VIC1.csv",
+      "sha256": "748731a67493c3d57501008550c1fe73fdcac2e2870dce8098069ad3d1ba5a25",
+      "bytes": 79271,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202603_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202603_SA1.csv",
+      "sha256": "98beb25170291fb40467b7cdcef0a01cd1901075f7efeaed7b9096f6abdbd59c",
+      "bytes": 77369,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202603_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202603_TAS1.csv",
+      "sha256": "c3ec0974bcc8802ca6f528abcca0afc54690ac640b259581e508e6448c399215",
+      "bytes": 64744,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202604_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202604_NSW1.csv",
+      "sha256": "1641f16f9073740ee716f693c3bffa624b71aee26bd8385960a822b81ad39f7c",
+      "bytes": 75595,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202604_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202604_QLD1.csv",
+      "sha256": "9b8e289be278f53cf2eebc3b69f75c8f87df81c2ffd47d667651317036c4e571",
+      "bytes": 74513,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202604_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202604_VIC1.csv",
+      "sha256": "7404fbd5d3bfd67093175458866e7ea4372c9aa29aa64247e26825e7c3b68d0b",
+      "bytes": 75048,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202604_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202604_SA1.csv",
+      "sha256": "34405aace7cdf5ca095e14adf9e1bc812ebf2b7225c29241588d56895c72d241",
+      "bytes": 73917,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202604_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202604_TAS1.csv",
+      "sha256": "1e4ea67368dc7cad2e4ccbb6d563f83012aa9e11af35c7a242bdb75284c605c6",
+      "bytes": 64318,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202605_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202605_NSW1.csv",
+      "sha256": "3ebd4c3be2fdcb46c9802ead29ff7b9fd5e0c06b3e21b661ef78635b1c6c76b7",
+      "bytes": 79647,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202605_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202605_QLD1.csv",
+      "sha256": "35ab948014f3b35ed344a896fb7580252a38181c513da9617bb4c94984f70c88",
+      "bytes": 77163,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202605_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202605_VIC1.csv",
+      "sha256": "9356e35beda4b997d1a9e0d994a616f4098e8e808d61b0e39613aa88ad640c3f",
+      "bytes": 79308,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202605_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202605_SA1.csv",
+      "sha256": "c4255e0fde06dd006b38779c80688cd4d9eae4565c6c000b9c69adab8b8b2f28",
+      "bytes": 77487,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202605_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202605_TAS1.csv",
+      "sha256": "e33adccd77548652136e8e4d358d8a4fdc1d1cb86bee5d91f844c28a209b4adb",
+      "bytes": 65102,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202606_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202606_NSW1.csv",
+      "sha256": "b9be135fda137f01c11dacc92fc11313574de9c0779eb9540335183641657e7e",
+      "bytes": 77080,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202606_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202606_QLD1.csv",
+      "sha256": "06731b249ddcc2f815fc43934f35a5b58a01a1cd901ad9b66e1ac72ec88549a6",
+      "bytes": 74318,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202606_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202606_VIC1.csv",
+      "sha256": "7ddb7ad04ffedb81a5e4e633877379d877c01d950b3ad6826755a5ac27051498",
+      "bytes": 76866,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202606_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202606_SA1.csv",
+      "sha256": "9c4289aed3148bc9df8f075361debe8fe411067fff349d8c6613b103fcf7b281",
+      "bytes": 74630,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202606_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202606_TAS1.csv",
+      "sha256": "b9ac48d71201bd8c52ff65468f6984c7ca483f7e278be7128e53d33780deabc3",
+      "bytes": 62774,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202607_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202607_NSW1.csv",
+      "sha256": "165182c9d2052e622bdf6cadcc344286da22cc8f90e24d4582ba26ef355637a6",
+      "bytes": 79507,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202607_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202607_QLD1.csv",
+      "sha256": "c14e2aadb10ba6f4724a271612762069a3682b340bdf81b925e3e6694c126129",
+      "bytes": 78597,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202607_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202607_VIC1.csv",
+      "sha256": "5b4f4cb40bfc18769950477f7b4556822f0f2d9cd30618934d8ea33e4551988e",
+      "bytes": 79795,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202607_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202607_SA1.csv",
+      "sha256": "f6988cca4cbcdd94cff888531217fbe78cf88f7c514f4de661b31afb8f79bec9",
+      "bytes": 75997,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202607_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202607_TAS1.csv",
+      "sha256": "a6415878cb5e2ebd7de5b91987c24bfc484e61354ff2c16c735be1020d3039a4",
+      "bytes": 77263,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202608_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202608_NSW1.csv",
+      "sha256": "cd77c93a82267378c2d849fe3f0d9e887b97f09a5e633e470341b163badab3c4",
+      "bytes": 80164,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202608_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202608_QLD1.csv",
+      "sha256": "d85ac0c9039ccae51dde9ee4449688f72e23c63eacb60c2b7857ce6875e20ef4",
+      "bytes": 78729,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202608_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202608_VIC1.csv",
+      "sha256": "3fbcfe762f48a0924d0f68611b727790a3190c1b770be0841eefb151b7d635a8",
+      "bytes": 80417,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202608_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202608_SA1.csv",
+      "sha256": "6b5a4b3a5d9e2d9571d0ec960db90dabfdf9f05c89e35f79e7fa0219e5bc9bba",
+      "bytes": 77971,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202608_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202608_TAS1.csv",
+      "sha256": "25712b431da09447b19ab9e296fefe4f7830eea3e79de79b48e9db73cbb06df7",
+      "bytes": 77725,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202609_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202609_NSW1.csv",
+      "sha256": "2fb59a319818a8e35e7146375be4fc68d32c74f75e3c930da1a7f7e1a421ad2d",
+      "bytes": 77217,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202609_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202609_QLD1.csv",
+      "sha256": "401e8b116956ec5cdcac4197aea53f938ae3caedcee656876241de0766983b5d",
+      "bytes": 75248,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202609_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202609_VIC1.csv",
+      "sha256": "ee7a3202cc923bb2e7bfb1409cb45fee072756e884ef5975b96d16fcaf1eba4f",
+      "bytes": 76335,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202609_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202609_SA1.csv",
+      "sha256": "6f0f150e8a1cdc192ee8bf031098f31381e2a1b24f4a69ef27178d4b9990079a",
+      "bytes": 75384,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202609_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202609_TAS1.csv",
+      "sha256": "65d0d4ce2040302e922ead1e54ba3a11ae3ad6c8e014cb7b898658d780b5218c",
+      "bytes": 73479,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202610_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202610_NSW1.csv",
+      "sha256": "14cebd12b1d773b9e2b6efa319a582836c827d4100bd7ccb5d051e5fcd574510",
+      "bytes": 79669,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202610_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202610_QLD1.csv",
+      "sha256": "9b5cd8fb482d72d32f9b6a3fb50fc6747d936b1a9cf59b7aebd2f5423d70766d",
+      "bytes": 80636,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202610_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202610_VIC1.csv",
+      "sha256": "1be86b1fc0089fa5646c7ef54a4f1fb2905577d0611766768f4ad0d5384d4226",
+      "bytes": 78504,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202610_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202610_SA1.csv",
+      "sha256": "61f8622f4914472c302647423be1e666d5563a8c63a53f87f83b4e75c19f2846",
+      "bytes": 76897,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202610_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202610_TAS1.csv",
+      "sha256": "f5ce2471b91e2e5c4c0ec0d7fe703d68c442fb525a87cc04db825343e215c23a",
+      "bytes": 72992,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202611_NSW1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202611_NSW1.csv",
+      "sha256": "581e883d8ee01b313ebd782e08df6411cee18cb82a2af1d97e495cdb8a962b05",
+      "bytes": 13310,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202611_QLD1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202611_QLD1.csv",
+      "sha256": "eb11d655bd13f17a4e80cbda7b9b93328228ebd23112117bbe36d33cf7124e36",
+      "bytes": 13543,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202611_VIC1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202611_VIC1.csv",
+      "sha256": "47d31080cafed1070c083c7825d032c93f1125219602796273717feea4a7bfad",
+      "bytes": 13453,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202611_SA1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202611_SA1.csv",
+      "sha256": "eade022dcb6dbb134e564386b7434ef26c0b5dba8ee7a2a3d4c7b3622dd9deae",
+      "bytes": 12818,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/price_demand/PRICE_AND_DEMAND_202611_TAS1.csv.gz",
+      "url": "https://aemo.com.au/aemo/data/nem/priceanddemand/PRICE_AND_DEMAND_202611_TAS1.csv",
+      "sha256": "9923625c77b7250a323928e581eb4891e821488cc87bfcf77375451fa108aaf4",
+      "bytes": 12556,
+      "publisher": "AEMO",
+      "licence": "AEMO public NEM price and demand file. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261022.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261022.zip",
+      "sha256": "97ea8a249df53cf78a2e052563fdb55586d9c1bdb1c1c382b5317521b82ea7d4",
+      "bytes": 1196600,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261023.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261023.zip",
+      "sha256": "ec9d41c309044e14b6ee8ba368c359ff8f38a289f2805d2fdc095619c5eda16b",
+      "bytes": 1206802,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261024.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261024.zip",
+      "sha256": "5d365680211ff6214407aeece42322c05827b91003685f032a6361cd81819429",
+      "bytes": 1185631,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261025.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261025.zip",
+      "sha256": "6d37b64681b6b0b26670f5d3e2062e0351db56d3a5335736fa968a3949746c4f",
+      "bytes": 1214210,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261026.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261026.zip",
+      "sha256": "20a07352be4cad566d0e2480b7183df8ce694fb33087ee2ddbf382eacd4930d1",
+      "bytes": 1201333,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261027.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261027.zip",
+      "sha256": "be070a50b17e08bec192e10a31e7c0b2a32d63d67c7e0eea2ec982af1089a5a4",
+      "bytes": 1202369,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261028.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261028.zip",
+      "sha256": "fc0f74e4dd85e2c3784c8270817473d59aa0749f5f7c9366e5a097bc5310d9e1",
+      "bytes": 1202789,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261029.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261029.zip",
+      "sha256": "bac6e3f06b93e6dccf3c829e04c75971a62a3fb5d81c3acd38e45b2ac7786709",
+      "bytes": 1196639,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261030.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261030.zip",
+      "sha256": "e0ef06a11dff39d9e56f7dc48266ceea1d609ec831bb38b5d0fcc43a351801f0",
+      "bytes": 1192228,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261031.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261031.zip",
+      "sha256": "138fd4cfa588ef7e5695b4fbdc6b69d6f552e2d7593453d950b3988c5655536f",
+      "bytes": 1198763,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261101.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261101.zip",
+      "sha256": "366f77449234bf207476103a484e03f35bf1155db3fd26ef3a63f08f735579c1",
+      "bytes": 1195254,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261102.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261102.zip",
+      "sha256": "1a0ae7718e5e5ca5f74780fbef592fb81404806a456bfc4088cce2968d0f42b0",
+      "bytes": 1195546,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261103.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261103.zip",
+      "sha256": "76c8c80be914b0f9bce2cc2be993653a873e428c273d21c7915f98419057e519",
+      "bytes": 1198517,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/scada/PUBLIC_DISPATCHSCADA_20261104.zip",
+      "url": "https://nemweb.com.au/Reports/ARCHIVE/Dispatch_SCADA/PUBLIC_DISPATCHSCADA_20261104.zip",
+      "sha256": "ab590727ba2c6255e79f720d5083084163b4af99a0b39049ebef2957bad83699",
+      "bytes": 1205268,
+      "publisher": "AEMO",
+      "licence": "AEMO public dispatch SCADA archive. Free anonymous HTTP. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/reference/nem-registration-and-exemption-list.xlsx",
+      "url": "https://www.aemo.com.au/-/media/files/electricity/nem/participant_information/nem-registration-and-exemption-list.xlsx",
+      "sha256": "cf1dd630385bcc916ce4c5437290313bf0bf4c9891ce4d5074d643854f590e0e",
+      "bytes": 787495,
+      "publisher": "AEMO",
+      "licence": "AEMO NEM Registration and Exemption List. Free download. Attribute AEMO.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/abs/cpi_electricity_australia.json",
+      "url": "https://data.api.abs.gov.au/rest/data/ABS,CPI,2.0.0/1.40055.10.50.Q?startPeriod=2016-Q1&dimensionAtObservation=AllDimensions",
+      "sha256": "5354b79f68e3446532f0112234e7c0334463c818082ca9abcec4caec45287ec1",
+      "bytes": 13294,
+      "publisher": "ABS",
+      "licence": "Australian Bureau of Statistics CPI. Free SDMX API. ABS CC BY 4.0.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/abs/cpi_all_groups_capitals.json",
+      "url": "https://data.api.abs.gov.au/rest/data/ABS,CPI,2.0.0/1.10001.10.50%2B1%2B2%2B3%2B4%2B6%2B8.Q?startPeriod=2016-Q1&dimensionAtObservation=AllDimensions",
+      "sha256": "ddd7dfdfffbe1c6f3310c463422f4a0a62d493c3dac0b27ff85ecce395ea5dee",
+      "bytes": 23928,
+      "publisher": "ABS",
+      "licence": "Australian Bureau of Statistics CPI. Free SDMX API. ABS CC BY 4.0.",
+      "accessed_at": "2026-11-05"
+    },
+    {
+      "path": "data/snapshot/rba/f1-data.csv",
+      "url": "https://www.rba.gov.au/statistics/tables/csv/f1-data.csv",
+      "sha256": "a2138b445393caf406a5d50db2486a9db2908651de3817c05fd195a9b05b7e37",
+      "bytes": 309046,
+      "publisher": "RBA",
+      "licence": "Reserve Bank of Australia statistical table F1. Free CSV. Attribute the RBA.",
+      "accessed_at": "2026-11-05"
+    }
+  ]
+}

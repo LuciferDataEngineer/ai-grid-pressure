@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grid pressure briefing</title>
+  <meta name="description" content="Where demand, wholesale prices and household electricity prices stand on Australia's National Electricity Market.">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>
+</head>
+<body>
+  <a class="skip" href="#briefing">Skip to the briefing</a>
+  <header class="mast">
+    <p class="eyebrow">National Electricity Market</p>
+    <div class="mast-row">
+      <h1>Grid pressure briefing</h1>
+      <p class="as-of" id="as-of"></p>
+    </div>
+    <p class="lede" id="time-note"></p>
+  </header>
+  <nav class="tabs" id="tabs" aria-label="Briefing sections"></nav>
+  <main id="briefing">
+    <p class="banner" id="banner"></p>
+    <section class="kpis" id="kpis" aria-label="Key figures"></section>
+    <section class="hero" id="hero"></section>
+    <section class="charts" id="charts"></section>
+    <section class="meaning">
+      <h2>What this means</h2>
+      <p id="meaning"></p>
+    </section>
+    <footer class="sources" id="sources"></footer>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>
